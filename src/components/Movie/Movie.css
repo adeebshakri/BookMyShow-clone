@@ -1,0 +1,16 @@
+.movie-thumbnail-container {
+    height: 625px;
+    width: 431px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-thumbnail-container .movie-thumbnail{
+    height: 625px;
+    width: 431px;
+    padding-right: 9px;
+    object-fit: cover;
+    padding: 0px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.movie-details .img {
+    min-height: 412px;
+    min-width: 641px;
+    max-height: 412px;
+    max-width: 641px;
+    padding: 30px;
+}
+
+.movie-details{
+    float: left;
+    border: 1px solid green;
+    width: 95%;
+    height: 579px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-details .desc-title {
+    font-weight: 600;
+    padding-top: 17px;
+}
+
+.movie-details .book-tickets {
+    color: white;
+    background-color: darkred;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid darkred;
+    cursor: pointer;
+}
+
+.movie-details .title {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.movie-details .one-liners {
+    display: flex;
+}
+
+.movie-details .one-liners .i {
+    padding-right: 18px;
+}
+
+.movie-details .go-back {
+    color: gray;
+    padding-bottom: 114px;
+    cursor: pointer;
+}

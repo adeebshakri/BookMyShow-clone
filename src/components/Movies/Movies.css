@@ -1,0 +1,30 @@
+.movies {
+    display: flex;
+    justify-content: center;
+}
+.movies .header {
+    color: white;
+    background-color: midnightblue;
+    min-height: 34px;
+    padding-left: 40px ;
+}
+
+.movies .header .logo {
+    height: 32px;
+    width: 69px;
+    transform: rotate(345deg);
+}
+
+.movies .movies-data {
+    width: 90%;
+    height: 25%;
+    padding-left: 5px;
+}
+
+.slick-next:before {
+    color: rgb(139, 138, 138) !important;
+}
+
+.slick-prev:before {
+    color: rgb(139, 138, 138) !important;
+}

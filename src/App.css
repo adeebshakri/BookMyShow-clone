@@ -1,0 +1,12 @@
+.app .header {
+    color: white;
+    background-color: midnightblue;
+    min-height: 34px;
+    padding-left: 40px ;
+}
+
+.app .header .logo {
+    height: 32px;
+    width: 69px;
+    transform: rotate(345deg);
+}

@@ -1,0 +1,19 @@
+.confirm-booking {
+    background-color: rgb(59 59 60);
+    width: 88%;
+    height: 332px;
+    margin: 50px;
+    color: white;
+    padding: 25px;
+}
+
+.confirm-booking .ok {
+    float: right;
+    background-color: lightskyblue;
+    width: 50px;
+    height: 31px;
+    padding: 4px 14px;
+    border-radius: 4px;
+    margin: 59px 39px;
+    cursor: pointer;
+}

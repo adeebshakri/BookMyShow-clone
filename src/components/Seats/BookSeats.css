@@ -1,0 +1,76 @@
+.section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    margin: 15px;
+}
+
+.section > div {
+    border: 1px solid rgb(167 158 158);
+    width: 47px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.section > div:hover {
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: grey;
+}
+.booked {
+    background-color: #28af77;
+}
+
+.section .disabled:hover {
+    cursor: not-allowed;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.screen {
+    border: 1px solid rgb(158, 177, 247);
+    width: 80%;
+    margin: 0% 4% 3% 8%;
+    background-color:  rgb(158, 177, 247);
+    padding-left: 37%;
+}
+
+.time {
+    border: 1px solid rgb(58, 58, 59);
+    border-radius: 5px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.time.chosen {
+    background-color: #28af77;
+}
+
+.movie-name {
+    font-size: large;
+    font-weight: 600;
+    padding: 7px 0px;
+}
+
+.price {
+    padding: 28px 0px 0px 19px;
+}
+
+.book-tickets {
+    color: white;
+    background-color: darkred;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid darkred;
+    cursor: pointer;
+    margin-left: 19px;
+}
+
+.go-to-movies {
+    margin: 16px 45px;
+    float: right;
+    color: gray;
+    cursor: pointer;
+}
